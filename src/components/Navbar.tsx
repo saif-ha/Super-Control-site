@@ -75,7 +75,7 @@ export default function Navbar() {
               Sign In
             </motion.a>
             <motion.a
-              href="#pricing"
+              href="/sign-up"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               id="nav-get-started"
@@ -126,7 +126,7 @@ export default function Navbar() {
                   Sign In
                 </a>
                 <a
-                  href="#pricing"
+                  href="/sign-up"
                   onClick={() => setIsOpen(false)}
                   className="block px-4 py-3 text-sm font-semibold text-center text-white rounded-xl bg-gradient-to-r from-[#2563EB] to-[#06B6D4]"
                 >

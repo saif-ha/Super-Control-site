@@ -208,7 +208,7 @@ export default function SignInPage() {
           {/* Footer */}
           <p className="text-center text-sm text-slate-500 mt-6">
             Don't have an account?{" "}
-            <a href="#pricing" className="text-[#06B6D4] hover:text-cyan-300 font-semibold transition-colors">
+            <a href="/sign-up" className="text-[#06B6D4] hover:text-cyan-300 font-semibold transition-colors">
               Get started free
             </a>
           </p>
