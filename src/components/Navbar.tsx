@@ -66,7 +66,7 @@ export default function Navbar() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <motion.a
-              href="#"
+              href="/sign-in"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
               id="nav-sign-in"
@@ -120,7 +120,7 @@ export default function Navbar() {
               ))}
               <div className="pt-3 space-y-2">
                 <a
-                  href="#"
+                  href="/sign-in"
                   className="block px-4 py-3 text-sm font-semibold text-center text-slate-200 rounded-xl border border-white/10 hover:border-white/20 hover:text-white hover:bg-white/5 transition-all duration-200"
                 >
                   Sign In
