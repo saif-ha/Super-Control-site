@@ -15,7 +15,7 @@ import {
 // ─── Shared helpers ────────────────────────────────────────────────────────
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.65, ease: "easeOut" as const } },
 };
 const stagger = {
   hidden: {},
