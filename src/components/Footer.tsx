@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MonitorPlay, Twitter, Linkedin, Github, Youtube, Mail } from "lucide-react";
+import { MonitorPlay, Globe, Link2, GitBranch, PlayCircle, Mail } from "lucide-react";
 
 const footerLinks = {
   Product: [
@@ -35,10 +35,10 @@ const footerLinks = {
 };
 
 const socials = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Youtube, href: "#", label: "YouTube" },
+  { icon: Globe, href: "#", label: "Twitter / X" },
+  { icon: Link2, href: "#", label: "LinkedIn" },
+  { icon: GitBranch, href: "#", label: "GitHub" },
+  { icon: PlayCircle, href: "#", label: "YouTube" },
 ];
 
 export default function Footer() {
